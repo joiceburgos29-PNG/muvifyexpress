@@ -4,10 +4,10 @@ const companies = [
   {
     name: 'Mudanzas García',
     rating: 4.9,
-    reviews: 312
+    reviews: 312,
     time: '1 día',
     location: 'Madrid',
-    badge: 'Top valorada',
+    badge: 'Verificada',
     features: ['Seguro incluido', 'Embalaje gratuito', 'Equipo de 3 personas'],
   },
   {
@@ -29,6 +29,7 @@ const companies = [
     features: ['Servicio premium', 'Embalaje premium', 'Coordinador dedicado'],
   },
 ];
+
 
 export default function CompanyCards() {
   return (
