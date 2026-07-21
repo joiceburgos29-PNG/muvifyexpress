@@ -11,7 +11,6 @@ const faqs = [
   { q: '¿Hacéis mudanzas especiales (piano, obra de arte)?', a: 'Sí, indícalo en el formulario para asignar la empresa adecuada.' },
 ];
 
-
 export default function Help() {
   return (
     <section id="ayuda" className="py-20 lg:py-28 bg-[#F5F7FA]">
@@ -25,65 +24,28 @@ export default function Help() {
               Estamos aquí para ayudarte
             </h2>
             <p className="text-lg text-[#0D1B2A]/60 font-medium mb-8">
-              Si tienes cualquier duda, nuestro equipo te responde en minutos.
+              Resolvemos las dudas más frecuentes sobre cómo funciona Movify Express.
             </p>
-
-            <div className="space-y-4">
-              <a href="mailto:hola@muvify.com" className="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-[0_2px_20px_rgba(13,27,42,0.06)] hover:shadow-[0_8px_40px_rgba(13,27,42,0.12)] transition-all">
-                <div className="w-11 h-11 rounded-xl bg-[#FF9A00]/15 flex items-center justify-center">
-                  <Mail className="text-[#E68800]" size={20} />
-                </div>
-                <div>
-                  <p className="font-bold text-[#0D1B2A] text-sm">Email</p>
-                  <p className="text-sm text-[#0D1B2A]/60">hola@muvify.com</p>
-                </div>
-              </a>
-              <a href="tel:+34910000000" className="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-[0_2px_20px_rgba(13,27,42,0.06)] hover:shadow-[0_8px_40px_rgba(13,27,42,0.12)] transition-all">
-                <div className="w-11 h-11 rounded-xl bg-[#FF9A00]/15 flex items-center justify-center">
-                  <Phone className="text-[#E68800]" size={20} />
-                </div>
-                <div>
-                  <p className="font-bold text-[#0D1B2A] text-sm">Teléfono</p>
-                  <p className="text-sm text-[#0D1B2A]/60">910 000 000</p>
-                </div>
-              </a>
-              <div className="flex items-center gap-4 p-4 bg-white rounded-2xl shadow-[0_2px_20px_rgba(13,27,42,0.06)]">
-                <div className="w-11 h-11 rounded-xl bg-[#FF9A00]/15 flex items-center justify-center">
-                  <MapPin className="text-[#E68800]" size={20} />
-                </div>
-                <div>
-                  <p className="font-bold text-[#0D1B2A] text-sm">Oficina</p>
-                  <p className="text-sm text-[#0D1B2A]/60">Madrid, España</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div className="flex items-center gap-2 mb-6">
-              <LifeBuoy className="text-[#E68800]" size={22} />
-              <h3 className="font-bold text-[#0D1B2A] text-xl">Preguntas frecuentes</h3>
-            </div>
-            <div className="space-y-3">
-              {faqs.map((f, i) => (
-                <details
-                  key={i}
-                  className="group bg-white rounded-xl shadow-[0_2px_20px_rgba(13,27,42,0.06)] p-5 cursor-pointer"
-                >
-                  <summary className="flex items-center justify-between font-semibold text-[#0D1B2A] text-sm list-none">
-                    {f.q}
-                    <span className="text-[#E68800] text-xl group-open:rotate-45 transition-transform">+</span>
-                  </summary>
-                  <p className="mt-3 text-sm text-[#0D1B2A]/60 leading-relaxed">{f.a}</p>
-                </details>
-              ))}
-            </div>
             <div className="mt-6 p-5 rounded-xl bg-[#0D1B2A] text-white flex items-center gap-3">
               <MessageCircle size={20} className="text-[#FF9A00]" />
               <p className="text-sm font-medium">
                 ¿No encuentras tu respuesta? Escríbenos al chat en vivo.
               </p>
             </div>
+          </div>
+          <div className="space-y-3">
+            {faqs.map((f, i) => (
+              <details
+                key={i}
+                className="group bg-white rounded-xl shadow-[0_2px_20px_rgba(13,27,42,0.06)] p-5 cursor-pointer"
+              >
+                <summary className="flex items-center justify-between font-semibold text-[#0D1B2A] text-sm list-none">
+                  {f.q}
+                  <span className="text-[#E68800] text-xl group-open:rotate-45 transition-transform">+</span>
+                </summary>
+                <p className="mt-3 text-sm text-[#0D1B2A]/60 leading-relaxed">{f.a}</p>
+              </details>
+            ))}
           </div>
         </div>
       </div>
