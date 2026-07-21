@@ -1,27 +1,16 @@
 import { Mail, Phone, MapPin, MessageCircle, LifeBuoy } from 'lucide-react';
 
-const faqs = [
-  {
-    q: '¿Cuánto tardan en llegar los presupuestos?',
-    a: 'En menos de 24 horas recibirás presupuestos de empresas verificadas disponibles para tu ruta.',
-
-  {
-    q: '¿Las empresas están verificadas?',
-    a: 'Sí. Todas pasan un proceso de validación documental, seguros y referencias antes de formar parte de Muvify Express.',
-  },
-  {
-    q: '¿Tengo que pagar comisión a Muvify?',
-    a: 'No. Como cliente, comparar y recibir presupuestos es 100% gratis. Solo pagas el servicio de la empresa que elijas.',
-  },
-  {
-    q: '¿Puedo cancelar o cambiar la fecha?',
-    a: 'Sí. Puedes modificar o cancelar tu solicitud desde el panel de cliente en cualquier momento antes de confirmar la empresa.',
-  },
+cconst faqs = [
+  { q: '¿Cuánto cuesta usar Movify Express?', a: 'Comparar y recibir presupuestos es 100% gratis. Solo pagas el servicio de la empresa que elijas.' },
+  { q: '¿En cuánto tiempo recibo ofertas?', a: 'En menos de 24 horas recibirás presupuestos de empresas verificadas disponibles para tu ruta.' },
+  { q: '¿Las empresas están verificadas?', a: 'Sí. Todas pasan un proceso de validación documental, seguros y referencias antes de formar parte de Movify Express.' },
+  { q: '¿Incluye seguro?', a: 'Nuestros colaboradores trabajan con seguro de responsabilidad civil; confírmalo en cada oferta.' },
+  { q: '¿Puedo pedir guardamuebles?', a: 'Sí. Indica el tiempo estimado de almacenamiento en el formulario.' },
+  { q: '¿Estoy obligado a contratar?', a: 'No. Puedes comparar y decidir sin compromiso. Si ninguna oferta te encaja, no pagas nada.' },
+  { q: '¿Puedo cancelar o cambiar la fecha?', a: 'Sí. Puedes modificar o cancelar tu solicitud en cualquier momento antes de confirmar la empresa.' },
+  { q: '¿Hacéis mudanzas especiales (piano, obra de arte)?', a: 'Sí, indícalo en el formulario para asignar la empresa adecuada.' },
 ];
-{ q: '¿Cuánto cuesta usar Movify Express?', a: 'Comparar y recibir presupuestos es 100% gratis. Solo pagas el servicio de la empresa que elijas.' },
-{ q: '¿Incluye seguro?', a: 'Nuestros colaboradores trabajan con seguro de responsabilidad civil; confírmalo en cada oferta.' },
-{ q: '¿Puedo pedir guardamuebles?', a: 'Sí. Indica el tiempo estimado de almacenamiento en el formulario.' },
-{ q: '¿Hacéis mudanzas especiales (piano, obra de arte)?', a: 'Sí, indícalo en el formulario para asignar la empresa adecuada.' },
+
 
 export default function Help() {
   return (
