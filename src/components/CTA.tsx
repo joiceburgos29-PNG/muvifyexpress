@@ -15,9 +15,10 @@ export default function CTA({ onQuote }: CTAProps) {
             <h2 className="text-3xl md:text-4xl font-extrabold text-white mb-4">
               ¿Listo para tu próxima mudanza?
             </h2>
-            <p className="text-white/70 text-lg font-medium max-w-xl mx-auto mb-8">
-              Únete a miles de personas que ya se han mudado con Muvify Express.
-              Precio claro hoy, mudanza tranquila mañana.
+             <p className="text-white/70 text-lg font-medium max-w-xl mx-auto mb-8">
+             Comparar es gratis y sin compromiso. Recibe ofertas de empresas verificadas en menos de 24h.
+            </p>
+
             </p>
             <button
               onClick={onQuote}
@@ -32,3 +33,7 @@ export default function CTA({ onQuote }: CTAProps) {
     </section>
   );
 }
+<button onClick={() => window.open('[wa.me](https://wa.me/34664071404?text=Hola%2C%20quiero%20un%20presupuesto%20de%20mudanza%20con%20Movify%20Express)', '_blank')}
+  className="ml-3 inline-flex items-center gap-2 bg-[#25D366] text-white font-bold px-8 py-4 rounded-xl hover:bg-[#1da851] transition-colors text-base">
+  Hablar por WhatsApp
+</button>
