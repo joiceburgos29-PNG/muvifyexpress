@@ -68,8 +68,8 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <h4 className="font-bold text-sm mb-4 text-white/90 uppercase tracking-wide">Contacto</h4>
             <ul className="space-y-3 text-sm text-white/60 font-medium">
-              <li className="flex items-center gap-2"><Mail size={16} className="text-[#FF9A00]" /> hola@muvify.com</li>
-              <li className="flex items-center gap-2"><Phone size={16} className="text-[#FF9A00]" /> 910 000 000</li>
+              <li className="flex items-center gap-2"><Mail size={16} className="text-[#FF9A00]" /> contacto@muvifyexpress.com</li>
+              <li className="flex items-center gap-2"><Phone size={16} className="text-[#FF9A00]" /> 664 071 404</li>
               <li className="flex items-center gap-2"><MapPin size={16} className="text-[#FF9A00]" /> Madrid, España</li>
             </ul>
           </div>
