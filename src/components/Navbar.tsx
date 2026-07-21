@@ -15,6 +15,7 @@ const links = [
 ];
 
 
+
 export default function Navbar({ onNavigate, onQuote }: NavbarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
