@@ -10,9 +10,10 @@ type NavbarProps = {
 const links = [
   { label: 'Inicio', id: 'inicio' },
   { label: 'Cómo funciona', id: 'como-funciona' },
-  { label: 'Empresas', id: 'empresas' }
+  { label: 'Empresas', id: 'empresas' },
   { label: 'Ayuda', id: 'ayuda' },
 ];
+
 
 export default function Navbar({ onNavigate, onQuote }: NavbarProps) {
   const [mobileOpen, setMobileOpen] = useState(false);
