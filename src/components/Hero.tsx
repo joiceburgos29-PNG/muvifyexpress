@@ -27,7 +27,7 @@ export default function Hero({ onQuote, onLearn }: HeroProps) {
             </h1>
 
             <p className="text-lg text-[#0D1B2A]/60 font-medium leading-relaxed mb-8 max-w-md">
-              Recibe hasta 3 presupuestos de empresas verificadas en menos de 24 horas.
+              Recibe presupuestos de empresas verificadas en menos de 24 horas. Sin compromiso, sin costes ocultos.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10 w-full sm:w-auto">
