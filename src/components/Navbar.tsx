@@ -10,8 +10,7 @@ type NavbarProps = {
 const links = [
   { label: 'Inicio', id: 'inicio' },
   { label: 'Cómo funciona', id: 'como-funciona' },
-  { label: 'Empresas', id: 'empresas' },
-  { label: 'Precios', id: 'precios' },
+  { label: 'Empresas', id: 'empresas' }
   { label: 'Ayuda', id: 'ayuda' },
 ];
 
