@@ -4,8 +4,7 @@ const companies = [
   {
     name: 'Mudanzas García',
     rating: 4.9,
-    reviews: 312,
-    price: 480,
+    reviews: 312
     time: '1 día',
     location: 'Madrid',
     badge: 'Top valorada',
@@ -15,7 +14,6 @@ const companies = [
     name: 'Express Logistics',
     rating: 4.7,
     reviews: 198,
-    price: 520,
     time: '1-2 días',
     location: 'Barcelona',
     badge: 'Respuesta rápida',
@@ -25,7 +23,6 @@ const companies = [
     name: 'Muvify Pro',
     rating: 4.8,
     reviews: 245,
-    price: 610,
     time: '1 día',
     location: 'Valencia',
     badge: 'Premium',
@@ -86,13 +83,14 @@ export default function CompanyCards() {
               <div className="mt-auto pt-5 border-t border-gray-100">
                 <div className="flex items-end justify-between mb-4">
                   <div>
-                    <p className="text-xs text-[#0D1B2A]/50 font-semibold">Precio estimado</p>
-                    <p className="text-2xl font-extrabold text-[#0D1B2A]">{c.price} €</p>
-                  </div>
+                    <p className="text-xs text-[#0D1B2A]/50 font-semibold">Presupuesto</p>
+                    <p className="text-lg font-extrabold text-[#0D1B2A]">A medida en 24h</p>
+                 </div>
+
                   <ShieldCheck size={20} className="text-[#FF9A00]" />
                 </div>
                 <button className="w-full flex items-center justify-center gap-2 bg-[#FF9A00] text-[#0D1B2A] font-bold px-6 py-3 rounded-xl hover:bg-[#E68800] transition-colors">
-                  Elegir empresa
+                  Solicitar Presupuesto
                 </button>
               </div>
             </div>
