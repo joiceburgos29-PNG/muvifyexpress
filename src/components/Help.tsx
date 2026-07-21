@@ -1,6 +1,6 @@
 import { Mail, Phone, MapPin, MessageCircle, LifeBuoy } from 'lucide-react';
 
-cconst faqs = [
+const faqs = [
   { q: '¿Cuánto cuesta usar Movify Express?', a: 'Comparar y recibir presupuestos es 100% gratis. Solo pagas el servicio de la empresa que elijas.' },
   { q: '¿En cuánto tiempo recibo ofertas?', a: 'En menos de 24 horas recibirás presupuestos de empresas verificadas disponibles para tu ruta.' },
   { q: '¿Las empresas están verificadas?', a: 'Sí. Todas pasan un proceso de validación documental, seguros y referencias antes de formar parte de Movify Express.' },
