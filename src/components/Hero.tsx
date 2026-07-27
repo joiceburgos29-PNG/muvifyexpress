@@ -27,7 +27,7 @@ export default function Hero({ onQuote, onLearn }: HeroProps) {
             </h1>
 
             <p className="text-lg text-[#0D1B2A]/60 font-medium leading-relaxed mb-8 max-w-md">
-              Recibe presupuestos de empresas verificadas en menos de 24 horas. Sin compromiso, sin costes ocultos.
+              Recibe hasta 3 presupuestos de empresas verificadas en menos de 24 horas.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 mb-10 w-full sm:w-auto">
@@ -64,7 +64,7 @@ export default function Hero({ onQuote, onLearn }: HeroProps) {
                       <Star key={i} size={13} className="fill-[#FF9A00] text-[#FF9A00]" />
                     ))}
                   </div>
-                  <p className="text-xs font-semibold text-[#0D1B2A]/50 mt-0.5">Empresas verificadas en Madrid</p>
+                  <p className="text-xs font-semibold text-[#0D1B2A]/50 mt-0.5">+2.500 mudanzas realizadas</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">
@@ -103,10 +103,9 @@ export default function Hero({ onQuote, onLearn }: HeroProps) {
 
               {/* Floating card 2 */}
               <div className="absolute -right-4 top-10 bg-white rounded-2xl shadow-[0_8px_32px_rgba(13,27,42,0.15)] p-4 min-w-[160px]">
-                <p className="text-xs font-bold text-[#0D1B2A]/50 mb-1">Tiempo medio</p>
-                <p className="text-2xl font-extrabold text-[#0D1B2A]">24h</p>
-                <p className="text-xs text-[#0D1B2A]/50">respuesta de ofertas</p>
-
+                <p className="text-xs font-bold text-[#0D1B2A]/50 mb-1">Presupuestos</p>
+                <p className="text-2xl font-extrabold text-[#0D1B2A]">3</p>
+                <p className="text-xs text-[#0D1B2A]/50">en menos de 24h</p>
               </div>
             </div>
           </div>
