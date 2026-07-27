@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, MessageCircle, LifeBuoy } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
 const faqs = [
   { q: '¿Cuánto cuesta usar Movify Express?', a: 'Comparar y recibir presupuestos es 100% gratis. Solo pagas el servicio de la empresa que elijas.' },
