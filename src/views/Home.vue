@@ -6,9 +6,12 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <!-- Left side - Content -->
           <div class="flex flex-col justify-center">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
               Encuentra la mejor empresa de mudanzas en minutos
             </h1>
+            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6 leading-tight">
+              Compara, elige y mudate sin complicaciones
+            </h2>
             <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
               Compara hasta 3 presupuestos gratuitos de empresas verificadas. Sin llamadas interminables. Sin compromiso. Solo elige la mejor opción.
             </p>
