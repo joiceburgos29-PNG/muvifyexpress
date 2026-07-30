@@ -101,6 +101,18 @@
             <h3 class="text-xl font-bold text-gray-900 mb-2">Reserva online</h3>
             <p class="text-gray-600">Elige la mejor opción y confirma tu reserva.</p>
           </div>
+
+          <div class="flex items-center justify-center md:mb-0 mb-4">
+            <div class="hidden md:block text-3xl text-primary">→</div>
+          </div>
+
+          <div class="text-center">
+            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              5
+            </div>
+            <h3 class="text-xl font-bold text-gray-900 mb-2">Realizas tu mudanza</h3>
+            <p class="text-gray-600">Nuestro equipo profesional realiza tu traslado sin preocupaciones.</p>
+          </div>
         </div>
       </div>
     </section>
