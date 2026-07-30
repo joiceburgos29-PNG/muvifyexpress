@@ -91,7 +91,7 @@
               <td class="py-4 px-4 font-semibold text-gray-900">Servicios</td>
               <td v-for="quote in comparisonQuotes" :key="quote.id" class="text-center py-4 px-4">
                 <div class="text-sm text-gray-600">
-                  <div v-for="service in quote.services" :key="service" class="inline-block bg-blue-50 text-blue-700 px-2 py-1 rounded text-xs mr-1 mb-1">
+                  <div v-for="service in quote.services" :key="service" class="inline-block bg-yellow-50 text-primary-dark px-2 py-1 rounded text-xs mr-1 mb-1">
                     {{ service }}
                   </div>
                 </div>
@@ -130,7 +130,7 @@
               <td v-for="quote in comparisonQuotes" :key="quote.id" class="text-center py-4 px-4">
                 <button
                   @click="acceptQuote(quote)"
-                  class="w-full bg-primary text-white px-4 py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+                  class="w-full bg-primary text-white px-4 py-2 rounded-lg font-semibold hover:bg-primary-dark transition-colors"
                 >
                   Aceptar
                 </button>

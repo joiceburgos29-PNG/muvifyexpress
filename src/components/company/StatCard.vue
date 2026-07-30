@@ -20,7 +20,7 @@ const props = withDefaults(defineProps<Props>(), {
 
 const borderColorClass = computed(() => {
   const colors: Record<string, string> = {
-    blue: 'border-blue-500 bg-blue-50',
+    blue: 'border-blue-500 bg-yellow-50',
     yellow: 'border-yellow-500 bg-yellow-50',
     green: 'border-green-500 bg-green-50',
     purple: 'border-purple-500 bg-purple-50'
@@ -30,7 +30,7 @@ const borderColorClass = computed(() => {
 
 const textColorClass = computed(() => {
   const colors: Record<string, string> = {
-    blue: 'text-blue-600',
+    blue: 'text-primary',
     yellow: 'text-yellow-600',
     green: 'text-green-600',
     purple: 'text-purple-600'

@@ -34,7 +34,7 @@ const statusStyles: Record<string, string> = {
   Pendiente: 'bg-brand-yellow-light/30 text-brand-yellow-dark',
   Aceptada: 'bg-green-100 text-green-700',
   Completada: 'bg-brand-navy/10 text-brand-navy',
-  Recibido: 'bg-blue-100 text-blue-700',
+  Recibido: 'bg-blue-100 text-primary-dark',
   Pagada: 'bg-green-100 text-green-700',
 };
 
@@ -59,7 +59,7 @@ export default function ClientDashboard({ onBack }: ClientDashboardProps) {
         <div className="space-y-6">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { label: 'Solicitudes activas', value: '2', icon: FileText, color: 'bg-blue-50 text-blue-600' },
+              { label: 'Solicitudes activas', value: '2', icon: FileText, color: 'bg-yellow-50 text-primary' },
               { label: 'Presupuestos recibidos', value: '5', icon: Inbox, color: 'bg-brand-yellow/15 text-brand-yellow-dark' },
               { label: 'Mudanzas completadas', value: '7', icon: CheckCircle2, color: 'bg-green-50 text-green-600' },
               { label: 'Gasto total', value: '4.180 €', icon: Euro, color: 'bg-brand-navy/10 text-brand-navy' },

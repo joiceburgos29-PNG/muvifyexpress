@@ -31,7 +31,7 @@ const companies = [
 const statusStyles: Record<string, string> = {
   Activo: 'bg-green-100 text-green-700',
   Activa: 'bg-green-100 text-green-700',
-  Verificada: 'bg-blue-100 text-blue-700',
+  Verificada: 'bg-blue-100 text-primary-dark',
   Pendiente: 'bg-brand-yellow-light/30 text-brand-yellow-dark',
   Suspendida: 'bg-red-100 text-red-700',
 };
@@ -57,7 +57,7 @@ export default function AdminDashboard({ onBack }: AdminDashboardProps) {
         <div className="space-y-6">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { label: 'Usuarios totales', value: '12.480', icon: Users, color: 'bg-blue-50 text-blue-600' },
+              { label: 'Usuarios totales', value: '12.480', icon: Users, color: 'bg-yellow-50 text-primary' },
               { label: 'Empresas activas', value: '342', icon: Building2, color: 'bg-brand-yellow/15 text-brand-yellow-dark' },
               { label: 'Comisión mensual', value: '48.200 €', icon: Percent, color: 'bg-brand-navy/10 text-brand-navy' },
               { label: 'Mudanzas / mes', value: '1.840', icon: Truck, color: 'bg-green-50 text-green-600' },

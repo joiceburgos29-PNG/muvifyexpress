@@ -29,7 +29,7 @@
           <h2 class="text-2xl font-bold text-gray-900">Revisa tu Orden</h2>
 
           <!-- Booking Details -->
-          <div class="bg-blue-50 rounded-lg p-6 space-y-4">
+          <div class="bg-yellow-50 rounded-lg p-6 space-y-4">
             <h3 class="font-bold text-gray-900">Detalles de la Mudanza</h3>
 
             <div class="grid grid-cols-2 gap-4">
@@ -78,7 +78,7 @@
           </div>
 
           <!-- Next Button -->
-          <button @click="nextStep" class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors">
+          <button @click="nextStep" class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-primary-dark transition-colors">
             Continuar al Pago
           </button>
         </div>
@@ -129,7 +129,7 @@
 
           <!-- Action Buttons -->
           <div class="flex flex-col sm:flex-row gap-4">
-            <router-link to="/client/bookings" class="flex-1 bg-primary text-white py-3 rounded-lg font-bold hover:bg-blue-700 text-center transition-colors">
+            <router-link to="/client/bookings" class="flex-1 bg-primary text-white py-3 rounded-lg font-bold hover:bg-primary-dark text-center transition-colors">
               Ver mis Mudanzas
             </router-link>
             <router-link to="/" class="flex-1 px-6 py-3 border-2 border-gray-200 text-gray-900 rounded-lg font-bold hover:border-gray-300 text-center transition-colors">

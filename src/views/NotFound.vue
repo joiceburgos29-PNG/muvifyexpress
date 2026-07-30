@@ -6,7 +6,7 @@
       <p class="text-gray-600 mb-8">La página que buscas no existe.</p>
       <router-link 
         to="/" 
-        class="px-6 py-3 bg-primary text-white rounded-lg hover:bg-blue-700 transition"
+        class="px-6 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition"
       >
         Volver a inicio
       </router-link>

@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50">
     <nav class="bg-white shadow-sm border-b border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <router-link to="/client/dashboard" class="text-primary hover:text-blue-700">
+        <router-link to="/client/dashboard" class="text-primary hover:text-primary-dark">
           ← Volver al Panel
         </router-link>
       </div>
@@ -43,7 +43,7 @@
               </div>
               <div>
                 <p class="text-gray-500 text-sm">Acción</p>
-                <button class="text-primary hover:text-blue-700 font-semibold text-sm">
+                <button class="text-primary hover:text-primary-dark font-semibold text-sm">
                   Ver Detalles →
                 </button>
               </div>
@@ -53,7 +53,7 @@
               <button class="flex-1 py-2 bg-gray-100 text-gray-900 rounded-lg hover:bg-gray-200 transition font-semibold">
                 Descargar Factura
               </button>
-              <button class="flex-1 py-2 border border-primary text-primary rounded-lg hover:bg-blue-50 transition font-semibold">
+              <button class="flex-1 py-2 border border-primary text-primary rounded-lg hover:bg-primary-50 transition font-semibold">
                 Contactar
               </button>
             </div>
@@ -65,7 +65,7 @@
         <p class="text-gray-600 text-lg mb-4">No tienes mudanzas confirmadas aún</p>
         <router-link 
           to="/"
-          class="inline-block px-6 py-2 bg-primary text-white rounded-lg hover:bg-blue-700 transition"
+          class="inline-block px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition"
         >
           Solicitar presupuesto
         </router-link>

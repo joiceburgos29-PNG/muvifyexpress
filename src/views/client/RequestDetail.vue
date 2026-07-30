@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50">
     <nav class="bg-white shadow-sm border-b border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <router-link to="/client/requests" class="text-primary hover:text-blue-700">
+        <router-link to="/client/requests" class="text-primary hover:text-primary-dark">
           ← Volver a Solicitudes
         </router-link>
       </div>
@@ -61,13 +61,13 @@
           <div class="space-y-3">
             <router-link 
               :to="`/client/quotes/${selectedRequest.id}`"
-              class="block w-full px-4 py-3 bg-primary text-white rounded-lg hover:bg-blue-700 transition text-center font-semibold"
+              class="block w-full px-4 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition text-center font-semibold"
             >
               Ver Presupuestos ({{ requestQuotes.length }})
             </router-link>
             <button 
               @click="goToMessages"
-              class="w-full px-4 py-3 border-2 border-primary text-primary rounded-lg hover:bg-blue-50 transition font-semibold"
+              class="w-full px-4 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary-50 transition font-semibold"
             >
               Mensajes
             </button>

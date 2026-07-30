@@ -75,7 +75,7 @@
           </div>
           <router-link 
             to="/company/requests"
-            class="mt-4 block text-center py-2 text-primary hover:text-blue-700 transition"
+            class="mt-4 block text-center py-2 text-primary hover:text-primary-dark transition"
           >
             Ver todas las solicitudes →
           </router-link>
@@ -87,13 +87,13 @@
           <div class="space-y-3">
             <router-link 
               to="/company/requests"
-              class="block w-full px-4 py-3 bg-primary text-white rounded-lg hover:bg-blue-700 transition text-center font-semibold"
+              class="block w-full px-4 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition text-center font-semibold"
             >
               Ver Solicitudes
             </router-link>
             <router-link 
               to="/company/calendar"
-              class="block w-full px-4 py-3 border-2 border-primary text-primary rounded-lg hover:bg-blue-50 transition text-center font-semibold"
+              class="block w-full px-4 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary-50 transition text-center font-semibold"
             >
               Calendario
             </router-link>
@@ -106,7 +106,7 @@
           </div>
 
           <!-- Rating Widget -->
-          <div class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+          <div class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-100">
             <p class="text-sm font-semibold text-blue-900">⭐ {{ companyStore.analytics.avgRating }}/5</p>
             <p class="text-xs text-blue-800">Basado en {{ companyStore.analytics.totalRequests }} reseñas</p>
           </div>

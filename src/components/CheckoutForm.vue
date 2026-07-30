@@ -11,7 +11,7 @@
       <!-- Form (2/3) -->
       <form @submit.prevent="handleSubmit" class="lg:col-span-2 space-y-6">
         <!-- Service Summary -->
-        <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+        <div class="bg-yellow-50 border border-yellow-100 rounded-lg p-6">
           <h3 class="font-semibold text-gray-900 mb-4">Resumen del Servicio</h3>
           <div class="space-y-3">
             <div class="flex justify-between text-sm">
@@ -22,7 +22,7 @@
               <span class="text-gray-600">Fecha de Mudanza</span>
               <span class="font-semibold text-gray-900">{{ formatDate(booking.moveDate) }}</span>
             </div>
-            <div class="flex justify-between text-sm border-t border-blue-200 pt-3">
+            <div class="flex justify-between text-sm border-t border-yellow-100 pt-3">
               <span class="text-gray-900 font-semibold">Monto Total</span>
               <span class="text-primary font-bold text-lg">{{ formatCurrency(booking.amount) }}</span>
             </div>
@@ -109,7 +109,7 @@
         <div>
           <h3 class="font-semibold text-gray-900 mb-4">Método de Pago</h3>
           <div class="space-y-4">
-            <div class="border-2 border-primary rounded-lg p-4 bg-blue-50">
+            <div class="border-2 border-primary rounded-lg p-4 bg-yellow-50">
               <label class="flex items-center gap-3 cursor-pointer">
                 <input
                   v-model="form.paymentMethod"
@@ -189,7 +189,7 @@
           @click="handleSubmit"
           type="button"
           :disabled="loading || !form.agreeTerms"
-          class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-blue-700 disabled:bg-gray-400 transition-colors"
+          class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-primary-dark disabled:bg-gray-400 transition-colors"
         >
           <span v-if="!loading">Pagar {{ formatCurrency(booking.amount) }}</span>
           <span v-else class="flex items-center justify-center gap-2">

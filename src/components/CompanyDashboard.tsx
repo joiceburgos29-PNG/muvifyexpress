@@ -29,12 +29,12 @@ const statusStyles: Record<string, string> = {
   Pendiente: 'bg-brand-yellow-light/30 text-brand-yellow-dark',
   Aceptada: 'bg-green-100 text-green-700',
   Rechazada: 'bg-red-100 text-red-700',
-  Confirmada: 'bg-blue-100 text-blue-700',
+  Confirmada: 'bg-blue-100 text-primary-dark',
 };
 
 const calendarDays = [
   { day: 15, event: 'Madrid → Bilbao', type: 'bg-brand-yellow' },
-  { day: 18, event: 'Carga Toledo', type: 'bg-blue-500' },
+  { day: 18, event: 'Carga Toledo', type: 'bg-yellow-500' },
   { day: 22, event: 'Madrid → Alicante', type: 'bg-brand-yellow' },
   { day: 25, event: 'Devolución furgón', type: 'bg-brand-navy' },
 ];
@@ -61,7 +61,7 @@ export default function CompanyDashboard({ onBack }: CompanyDashboardProps) {
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { label: 'Nuevas solicitudes', value: '3', icon: Inbox, color: 'bg-brand-yellow/15 text-brand-yellow-dark' },
-              { label: 'Presupuestos enviados', value: '12', icon: Send, color: 'bg-blue-50 text-blue-600' },
+              { label: 'Presupuestos enviados', value: '12', icon: Send, color: 'bg-yellow-50 text-primary' },
               { label: 'Tasa de aceptación', value: '68%', icon: TrendingUp, color: 'bg-green-50 text-green-600' },
               { label: 'Ingresos del mes', value: '8.450 €', icon: Euro, color: 'bg-brand-navy/10 text-brand-navy' },
             ].map((s, i) => {

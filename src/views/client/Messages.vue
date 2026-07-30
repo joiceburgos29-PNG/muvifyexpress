@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50">
     <nav class="bg-white shadow-sm border-b border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <router-link :to="`/client/requests/${route.params.requestId}`" class="text-primary hover:text-blue-700">
+        <router-link :to="`/client/requests/${route.params.requestId}`" class="text-primary hover:text-primary-dark">
           ← Volver
         </router-link>
       </div>
@@ -17,7 +17,7 @@
           <div 
             v-for="message in messages" 
             :key="message.id"
-            :class="['p-4 rounded-lg', message.senderRole === 'client' ? 'bg-blue-50 ml-auto max-w-xs' : 'bg-gray-100 max-w-xs']"
+            :class="['p-4 rounded-lg', message.senderRole === 'client' ? 'bg-yellow-50 ml-auto max-w-xs' : 'bg-gray-100 max-w-xs']"
           >
             <p class="text-sm font-semibold text-gray-700">{{ message.senderName }}</p>
             <p class="mt-2 text-gray-900">{{ message.message }}</p>
@@ -37,7 +37,7 @@
             />
             <button 
               @click="sendMessage"
-              class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+              class="px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition font-semibold"
             >
               Enviar
             </button>

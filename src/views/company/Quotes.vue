@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50">
     <nav class="bg-white shadow-sm border-b border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <router-link to="/company/dashboard" class="text-primary hover:text-blue-700">
+        <router-link to="/company/dashboard" class="text-primary hover:text-primary-dark">
           ← Volver al Panel
         </router-link>
       </div>

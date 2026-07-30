@@ -7,7 +7,7 @@
           <h1 class="text-4xl font-bold text-gray-900">Historial de Pagos</h1>
           <p class="text-gray-600 mt-2">Seguimiento de tus ganancias y comisiones</p>
         </div>
-        <button class="px-6 py-2 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+        <button class="px-6 py-2 bg-primary text-white rounded-lg font-semibold hover:bg-primary-dark transition-colors">
           Descargar Reporte
         </button>
       </div>

@@ -1,7 +1,7 @@
 <template>
   <main class="bg-background">
     <!-- Hero Section -->
-    <section class="relative overflow-hidden bg-gradient-to-b from-slate-50 to-white pt-20 pb-24 md:pt-32 md:pb-32">
+    <section class="relative overflow-hidden bg-gradient-to-b from-yellow-50 to-white pt-20 pb-24 md:pt-32 md:pb-32">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <!-- Left side - Content -->
@@ -13,10 +13,10 @@
               Compara hasta 3 presupuestos gratuitos de empresas verificadas. Sin llamadas interminables. Sin compromiso. Solo elige la mejor opción.
             </p>
             <div class="flex flex-col sm:flex-row gap-4">
-              <button @click="scrollToForm" class="px-8 py-4 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700 transition transform hover:scale-105 active:scale-95">
+              <button @click="scrollToForm" class="px-8 py-4 bg-primary text-white rounded-lg font-semibold hover:bg-primary-dark transition transform hover:scale-105 active:scale-95">
                 Solicitar presupuesto
               </button>
-              <button @click="scrollToSection('howitworks')" class="px-8 py-4 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-blue-50 transition">
+              <button @click="scrollToSection('howitworks')" class="px-8 py-4 border-2 border-primary text-primary-dark rounded-lg font-semibold hover:bg-yellow-100 transition">
                 Cómo funciona
               </button>
             </div>
@@ -200,7 +200,7 @@
     </section>
 
     <!-- CTA Section -->
-    <section class="py-20 md:py-32 bg-gradient-to-r from-primary to-blue-700 text-white">
+    <section class="py-20 md:py-32 bg-gradient-to-r from-primary to-primary-dark text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-4xl md:text-5xl font-bold mb-6">
           ¿Preparado para mudarte?

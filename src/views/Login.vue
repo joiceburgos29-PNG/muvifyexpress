@@ -1,14 +1,12 @@
 <template>
-  <div class="min-h-screen bg-gray-50 flex items-center justify-center px-4 sm:px-6 lg:px-8">
+  <div class="min-h-screen bg-yellow-50 flex items-center justify-center px-4 sm:px-6 lg:px-8">
     <div class="w-full max-w-md">
       <div class="bg-white rounded-2xl shadow-lg p-8">
         <div class="flex justify-center mb-8">
-          <div class="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-            <span class="text-white font-bold text-xl">M</span>
-          </div>
+          <img src="/logo-muvify-express.svg" alt="Muvify Express" class="h-16 w-auto">
         </div>
 
-        <h1 class="text-3xl font-bold text-gray-900 text-center mb-8">
+        <h1 class="text-3xl font-bold text-primary-dark text-center mb-8">
           Muvify Express
         </h1>
 
@@ -21,14 +19,14 @@
             <div class="space-y-3">
               <router-link 
                 to="/client-login"
-                class="block p-4 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50 transition text-center font-semibold text-gray-900"
+                class="block p-4 border-2 border-primary rounded-lg hover:border-primary-dark hover:bg-yellow-100 transition text-center font-semibold text-primary-dark"
               >
                 👤 Cliente
               </router-link>
 
               <router-link 
                 to="/company-login"
-                class="block p-4 border-2 border-gray-200 rounded-lg hover:border-primary hover:bg-blue-50 transition text-center font-semibold text-gray-900"
+                class="block p-4 border-2 border-primary rounded-lg hover:border-primary-dark hover:bg-yellow-100 transition text-center font-semibold text-primary-dark"
               >
                 🏢 Empresa de mudanzas
               </router-link>
@@ -54,9 +52,9 @@
 
         <p class="text-center text-sm text-gray-600 mt-8">
           Al continuar, aceptas nuestros
-          <a href="#" class="text-primary hover:underline">Términos de servicio</a>
+          <a href="#" class="text-primary font-semibold hover:underline">Términos de servicio</a>
           y 
-          <a href="#" class="text-primary hover:underline">Política de privacidad</a>
+          <a href="#" class="text-primary font-semibold hover:underline">Política de privacidad</a>
         </p>
       </div>
     </div>

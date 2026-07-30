@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4">
       <!-- Header -->
       <div class="mb-8">
-        <router-link to="/client/requests" class="text-primary hover:text-blue-700 font-semibold mb-4 inline-flex items-center gap-2">
+        <router-link to="/client/requests" class="text-primary hover:text-primary-dark font-semibold mb-4 inline-flex items-center gap-2">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
@@ -42,7 +42,7 @@
               </button>
               <button
                 @click="confirmBooking"
-                class="flex-1 px-4 py-2 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700"
+                class="flex-1 px-4 py-2 bg-primary text-white rounded-lg font-semibold hover:bg-primary-dark"
               >
                 Confirmar
               </button>

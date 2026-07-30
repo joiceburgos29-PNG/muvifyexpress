@@ -229,7 +229,7 @@
           v-if="currentStep < 3"
           type="button"
           @click="nextStep"
-          class="flex-1 px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700 transition"
+          class="flex-1 px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary-dark transition"
         >
           Siguiente
         </button>
@@ -238,7 +238,7 @@
           v-if="currentStep === 3"
           type="submit"
           :disabled="isSubmitting"
-          class="flex-1 px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700 transition disabled:opacity-50"
+          class="flex-1 px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary-dark transition disabled:opacity-50"
         >
           {{ isSubmitting ? 'Enviando...' : 'Obtener presupuestos' }}
         </button>

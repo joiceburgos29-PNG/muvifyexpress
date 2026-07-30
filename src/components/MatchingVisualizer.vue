@@ -36,7 +36,7 @@
             >
               ✓
             </div>
-            <div v-else class="w-5 h-5 rounded-full bg-blue-500 animate-spin"></div>
+            <div v-else class="w-5 h-5 rounded-full bg-yellow-500 animate-spin"></div>
             <span class="text-sm font-semibold text-gray-900">{{ criterion.label }}</span>
           </div>
           <p class="text-xs text-gray-600">{{ criterion.description }}</p>
@@ -44,7 +44,7 @@
       </div>
 
       <!-- Status message -->
-      <div class="text-center py-4 bg-blue-50 rounded-lg">
+      <div class="text-center py-4 bg-yellow-50 rounded-lg">
         <p class="text-sm text-blue-800">
           {{ statusMessage }}
         </p>
@@ -94,7 +94,7 @@
                 <span class="text-xs font-bold text-primary">{{ match.breakdown.location }}%</span>
               </div>
               <div class="h-1.5 bg-gray-200 rounded-full overflow-hidden">
-                <div class="h-full bg-blue-500" :style="{ width: `${match.breakdown.location}%` }"></div>
+                <div class="h-full bg-yellow-500" :style="{ width: `${match.breakdown.location}%` }"></div>
               </div>
             </div>
 
@@ -140,7 +140,7 @@
           </div>
 
           <!-- Action -->
-          <button class="w-full px-4 py-2 bg-primary text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">
+          <button class="w-full px-4 py-2 bg-primary text-white rounded-lg font-semibold hover:bg-primary-dark transition-colors">
             Ver presupuesto
           </button>
         </div>

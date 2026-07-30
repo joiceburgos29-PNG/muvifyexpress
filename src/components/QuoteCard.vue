@@ -23,7 +23,7 @@
     <div class="mb-6">
       <p class="text-gray-600 text-sm mb-2 font-semibold">Servicios Incluidos</p>
       <div class="flex flex-wrap gap-2">
-        <span v-for="service in quote.services.slice(0, 3)" :key="service" class="text-xs bg-blue-50 text-blue-700 px-2 py-1 rounded">
+        <span v-for="service in quote.services.slice(0, 3)" :key="service" class="text-xs bg-yellow-50 text-primary-dark px-2 py-1 rounded">
           {{ service }}
         </span>
         <span v-if="quote.services.length > 3" class="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded">

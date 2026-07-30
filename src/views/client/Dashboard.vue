@@ -76,7 +76,7 @@
           </div>
           <router-link 
             to="/client/requests"
-            class="mt-4 block text-center py-2 text-primary hover:text-blue-700 transition"
+            class="mt-4 block text-center py-2 text-primary hover:text-primary-dark transition"
           >
             Ver todas las solicitudes →
           </router-link>
@@ -88,13 +88,13 @@
           <div class="space-y-3">
             <router-link 
               to="/"
-              class="block w-full px-4 py-3 bg-primary text-white rounded-lg hover:bg-blue-700 transition text-center font-semibold"
+              class="block w-full px-4 py-3 bg-primary text-white rounded-lg hover:bg-primary-dark transition text-center font-semibold"
             >
               Nueva Solicitud
             </router-link>
             <router-link 
               to="/client/bookings"
-              class="block w-full px-4 py-3 border-2 border-primary text-primary rounded-lg hover:bg-blue-50 transition text-center font-semibold"
+              class="block w-full px-4 py-3 border-2 border-primary text-primary rounded-lg hover:bg-primary-50 transition text-center font-semibold"
             >
               Mis Mudanzas
             </router-link>
@@ -107,7 +107,7 @@
           </div>
 
           <!-- Unread Messages -->
-          <div v-if="clientStore.unreadMessagesCount > 0" class="mt-6 p-4 bg-blue-50 rounded-lg border border-blue-200">
+          <div v-if="clientStore.unreadMessagesCount > 0" class="mt-6 p-4 bg-yellow-50 rounded-lg border border-yellow-100">
             <p class="text-sm font-semibold text-blue-900">
               Tienes {{ clientStore.unreadMessagesCount }} mensaje(s) sin leer
             </p>
@@ -135,7 +135,7 @@
             </div>
             <button 
               @click="clientStore.selectRequest(quote.requestId)"
-              class="w-full mt-4 py-2 bg-primary text-white rounded-lg hover:bg-blue-700 transition text-sm font-semibold"
+              class="w-full mt-4 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition text-sm font-semibold"
             >
               Ver Detalles
             </button>
