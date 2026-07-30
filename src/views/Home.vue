@@ -276,6 +276,126 @@
       </div>
     </section>
 
+    <!-- Help and FAQ Section -->
+    <section id="ayuda" class="py-20 md:py-32 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <!-- Help Section -->
+          <div>
+            <div class="inline-block px-4 py-2 bg-yellow-100 rounded-full text-primary font-semibold text-sm mb-6">
+              Ayuda
+            </div>
+            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+              Estamos aquí para ayudarte
+            </h2>
+            <p class="text-lg text-gray-600 mb-12">
+              Si tienes cualquier duda, nuestro equipo te responde en minutos.
+            </p>
+
+            <!-- Contact Cards -->
+            <div class="space-y-4">
+              <!-- Email -->
+              <div class="flex items-center gap-4 p-6 bg-yellow-50 rounded-xl border border-yellow-100">
+                <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white text-xl">
+                  ✉️
+                </div>
+                <div>
+                  <h3 class="font-bold text-gray-900">Email</h3>
+                  <p class="text-gray-600"><a href="mailto:hola@muvify.es" class="hover:text-primary transition">hola@muvify.es</a></p>
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="flex items-center gap-4 p-6 bg-yellow-50 rounded-xl border border-yellow-100">
+                <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white text-xl">
+                  ☎️
+                </div>
+                <div>
+                  <h3 class="font-bold text-gray-900">Teléfono</h3>
+                  <p class="text-gray-600"><a href="tel:+34664071404" class="hover:text-primary transition">+34 664 071 404</a></p>
+                </div>
+              </div>
+
+              <!-- Office -->
+              <div class="flex items-center gap-4 p-6 bg-yellow-50 rounded-xl border border-yellow-100">
+                <div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white text-xl">
+                  📍
+                </div>
+                <div>
+                  <h3 class="font-bold text-gray-900">Oficina</h3>
+                  <p class="text-gray-600">Madrid, España</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FAQ Section -->
+          <div>
+            <div class="inline-block px-4 py-2 bg-yellow-100 rounded-full text-primary font-semibold text-sm mb-6">
+              Preguntas frecuentes
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
+              Resolvemos tus dudas
+            </h2>
+
+            <!-- Accordion Items -->
+            <div class="space-y-4">
+              <!-- Item 1 -->
+              <details class="group border border-gray-200 rounded-lg p-4 cursor-pointer hover:border-primary transition">
+                <summary class="flex items-center justify-between font-bold text-gray-900">
+                  <span>¿Cuánto tardan en llegar los presupuestos?</span>
+                  <span class="text-primary group-open:rotate-180 transition">→</span>
+                </summary>
+                <p class="text-gray-600 mt-4 text-sm">
+                  En menos de 24 horas recibirás hasta 3 presupuestos de empresas verificadas disponibles para tu ruta.
+                </p>
+              </details>
+
+              <!-- Item 2 -->
+              <details class="group border border-gray-200 rounded-lg p-4 cursor-pointer hover:border-primary transition">
+                <summary class="flex items-center justify-between font-bold text-gray-900">
+                  <span>¿Las empresas están verificadas?</span>
+                  <span class="text-primary group-open:rotate-180 transition">→</span>
+                </summary>
+                <p class="text-gray-600 mt-4 text-sm">
+                  Sí. Todas pasan un proceso de validación documental, seguros y referencias antes de formar parte de Muvify Express.
+                </p>
+              </details>
+
+              <!-- Item 3 -->
+              <details class="group border border-gray-200 rounded-lg p-4 cursor-pointer hover:border-primary transition">
+                <summary class="flex items-center justify-between font-bold text-gray-900">
+                  <span>¿Tengo que pagar comisión a Muvify?</span>
+                  <span class="text-primary group-open:rotate-180 transition">→</span>
+                </summary>
+                <p class="text-gray-600 mt-4 text-sm">
+                  No. Como cliente, comparar y recibir presupuestos es 100% gratis. Solo pagas al servicio de la empresa que elijas.
+                </p>
+              </details>
+
+              <!-- Item 4 -->
+              <details class="group border border-gray-200 rounded-lg p-4 cursor-pointer hover:border-primary transition">
+                <summary class="flex items-center justify-between font-bold text-gray-900">
+                  <span>¿Puedo cancelar o cambiar la fecha?</span>
+                  <span class="text-primary group-open:rotate-180 transition">→</span>
+                </summary>
+                <p class="text-gray-600 mt-4 text-sm">
+                  Sí. Puedes modificar o cancelar tu solicitud desde el panel de cliente en cualquier momento antes de confirmar con la empresa.
+                </p>
+              </details>
+            </div>
+
+            <!-- Live Chat CTA -->
+            <div class="mt-8 p-4 bg-primary-dark rounded-lg text-white text-center">
+              <p class="font-semibold">
+                💬 ¿No encuentras tu respuesta? Escribenos al chat en vivo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="py-20 md:py-32 bg-gradient-to-r from-primary to-primary-dark text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
