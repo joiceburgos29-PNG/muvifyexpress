@@ -186,7 +186,8 @@
 
         <!-- Submit Button -->
         <button
-          type="submit"
+          @click="handleSubmit"
+          type="button"
           :disabled="loading || !form.agreeTerms"
           class="w-full bg-primary text-white py-3 rounded-lg font-bold hover:bg-blue-700 disabled:bg-gray-400 transition-colors"
         >
