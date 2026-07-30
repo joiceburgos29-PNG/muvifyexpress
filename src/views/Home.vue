@@ -57,7 +57,76 @@
           Cómo funciona
         </h2>
 
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <!-- Desktop View - Horizontal flow -->
+        <div class="hidden md:flex items-stretch justify-between gap-2 overflow-x-auto pb-4">
+          <!-- Step 1 -->
+          <div class="flex flex-col items-center flex-shrink-0 relative" style="min-width: 180px;">
+            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4 relative z-10">
+              1
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2 text-center">Solicita presupuesto</h3>
+            <p class="text-gray-600 text-sm text-center">Completa el formulario con los detalles de tu mudanza.</p>
+          </div>
+
+          <!-- Arrow 1 -->
+          <div class="flex items-start justify-center flex-shrink-0 pt-6">
+            <div class="text-4xl text-primary leading-none">→</div>
+          </div>
+
+          <!-- Step 2 -->
+          <div class="flex flex-col items-center flex-shrink-0 relative" style="min-width: 180px;">
+            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4 relative z-10">
+              2
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2 text-center">Comparamos empresas</h3>
+            <p class="text-gray-600 text-sm text-center">Nuestro sistema encuentra las mejores opciones.</p>
+          </div>
+
+          <!-- Arrow 2 -->
+          <div class="flex items-start justify-center flex-shrink-0 pt-6">
+            <div class="text-4xl text-primary leading-none">→</div>
+          </div>
+
+          <!-- Step 3 -->
+          <div class="flex flex-col items-center flex-shrink-0 relative" style="min-width: 180px;">
+            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4 relative z-10">
+              3
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2 text-center">Recibe ofertas</h3>
+            <p class="text-gray-600 text-sm text-center">Recibirás hasta 3 presupuestos gratuitos.</p>
+          </div>
+
+          <!-- Arrow 3 -->
+          <div class="flex items-start justify-center flex-shrink-0 pt-6">
+            <div class="text-4xl text-primary leading-none">→</div>
+          </div>
+
+          <!-- Step 4 -->
+          <div class="flex flex-col items-center flex-shrink-0 relative" style="min-width: 180px;">
+            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4 relative z-10">
+              4
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2 text-center">Reserva online</h3>
+            <p class="text-gray-600 text-sm text-center">Elige la mejor opción y confirma tu reserva.</p>
+          </div>
+
+          <!-- Arrow 4 -->
+          <div class="flex items-start justify-center flex-shrink-0 pt-6">
+            <div class="text-4xl text-primary leading-none">→</div>
+          </div>
+
+          <!-- Step 5 -->
+          <div class="flex flex-col items-center flex-shrink-0 relative" style="min-width: 180px;">
+            <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-4 relative z-10">
+              5
+            </div>
+            <h3 class="text-lg font-bold text-gray-900 mb-2 text-center">Realizas tu mudanza</h3>
+            <p class="text-gray-600 text-sm text-center">Nuestro equipo profesional realiza tu traslado.</p>
+          </div>
+        </div>
+
+        <!-- Mobile View - Vertical flow -->
+        <div class="md:hidden space-y-8">
           <div class="text-center">
             <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
               1
@@ -66,9 +135,7 @@
             <p class="text-gray-600">Completa el formulario con los detalles de tu mudanza.</p>
           </div>
 
-          <div class="flex items-center justify-center md:mb-0 mb-4">
-            <div class="hidden md:block text-3xl text-primary">→</div>
-          </div>
+          <div class="flex justify-center text-3xl text-primary">↓</div>
 
           <div class="text-center">
             <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
@@ -78,9 +145,7 @@
             <p class="text-gray-600">Nuestro sistema encuentra las mejores opciones.</p>
           </div>
 
-          <div class="flex items-center justify-center md:mb-0 mb-4">
-            <div class="hidden md:block text-3xl text-primary">→</div>
-          </div>
+          <div class="flex justify-center text-3xl text-primary">↓</div>
 
           <div class="text-center">
             <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
@@ -90,9 +155,7 @@
             <p class="text-gray-600">Recibirás hasta 3 presupuestos gratuitos.</p>
           </div>
 
-          <div class="flex items-center justify-center md:mb-0 mb-4">
-            <div class="hidden md:block text-3xl text-primary">→</div>
-          </div>
+          <div class="flex justify-center text-3xl text-primary">↓</div>
 
           <div class="text-center">
             <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
@@ -102,9 +165,7 @@
             <p class="text-gray-600">Elige la mejor opción y confirma tu reserva.</p>
           </div>
 
-          <div class="flex items-center justify-center md:mb-0 mb-4">
-            <div class="hidden md:block text-3xl text-primary">→</div>
-          </div>
+          <div class="flex justify-center text-3xl text-primary">↓</div>
 
           <div class="text-center">
             <div class="w-16 h-16 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
