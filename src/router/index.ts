@@ -56,6 +56,12 @@ const routes: RouteRecordRaw[] = [
     meta: { requiresAuth: true, role: 'client' }
   },
   {
+    path: '/checkout',
+    name: 'Checkout',
+    component: () => import('../views/Checkout.vue'),
+    meta: { requiresAuth: false }
+  },
+  {
     path: '/company',
     redirect: '/company/dashboard',
     meta: { requiresAuth: true, role: 'company' }
