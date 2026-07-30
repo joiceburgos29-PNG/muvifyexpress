@@ -250,7 +250,8 @@
             <h4 class="text-white font-bold mb-4">Contacto</h4>
             <ul class="space-y-2 text-sm">
               <li>📧 <a href="mailto:info@muvify.es" class="hover:text-white transition">info@muvify.es</a></li>
-              <li>📞 <a href="tel:+34900000000" class="hover:text-white transition">+34 900 000 000</a></li>
+              <li>📞 <a href="tel:+34664071404" class="hover:text-white transition">+34 664 071 404</a></li>
+              <li>💬 <a href="https://wa.me/34664071404" target="_blank" rel="noopener noreferrer" class="hover:text-white transition">WhatsApp: +34 664 071 404</a></li>
             </ul>
           </div>
         </div>
