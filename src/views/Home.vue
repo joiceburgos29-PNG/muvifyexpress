@@ -6,14 +6,15 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <!-- Left side - Content -->
           <div class="flex flex-col justify-center">
-            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
-              Encuentra la mejor empresa de mudanzas en minutos
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+              <span class="text-gray-900">Compara, elige y</span>
+              <br />
+              <span class="text-primary">mudate sin</span>
+              <br />
+              <span class="text-primary">complicaciones.</span>
             </h1>
-            <h2 class="text-2xl md:text-3xl font-bold text-primary mb-6 leading-tight">
-              Compara, elige y mudate sin complicaciones
-            </h2>
-            <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
-              Compara hasta 3 presupuestos gratuitos de empresas verificadas. Sin llamadas interminables. Sin compromiso. Solo elige la mejor opción.
+            <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed max-w-md">
+              Recibe hasta 3 presupuestos de empresas verificadas en menos de 24 horas.
             </p>
             <div class="flex flex-col sm:flex-row gap-4">
               <button @click="scrollToForm" class="px-8 py-4 bg-primary text-white rounded-lg font-semibold hover:bg-primary-dark transition transform hover:scale-105 active:scale-95">
