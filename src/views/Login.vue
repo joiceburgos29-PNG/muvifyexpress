@@ -3,7 +3,7 @@
     <div class="w-full max-w-md">
       <div class="bg-white rounded-2xl shadow-lg p-8">
         <div class="flex justify-center mb-8">
-          <img src="/logo-muvify-express.svg" alt="Muvify Express" class="h-16 w-auto">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/LOGO.MUVIFY.EXPRESS-tUJWSv6v0CIkHijScsOU1nBD6PpmQL.png" alt="Muvify Express" class="h-16 w-auto">
         </div>
 
         <h1 class="text-3xl font-bold text-primary-dark text-center mb-8">
