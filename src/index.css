@@ -5,13 +5,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap');
 
 :root {
-  --primary: #2563EB;
-  --primary-dark: #1E3A8A;
-  --secondary: #F8FAFC;
-  --accent: #06B6D4;
-  --text-primary: #1F2937;
-  --text-secondary: #6B7280;
-  --border: #E5E7EB;
+  --primary: #FFA500;
+  --primary-dark: #001F3F;
+  --secondary: #FFF8DC;
+  --accent: #FFD700;
+  --text-primary: #001F3F;
+  --text-secondary: #666666;
+  --border: #FFE5B4;
   --background: #FFFFFF;
 }
 

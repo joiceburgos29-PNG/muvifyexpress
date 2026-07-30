@@ -8,12 +8,12 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
       },
       colors: {
-        primary: '#2563EB',
-        'primary-dark': '#1E3A8A',
-        secondary: '#F8FAFC',
-        accent: '#06B6D4',
+        primary: '#FFA500',
+        'primary-dark': '#001F3F',
+        secondary: '#FFF8DC',
+        accent: '#FFD700',
         background: '#FFFFFF',
-        foreground: '#1F2937',
+        foreground: '#001F3F',
       },
       boxShadow: {
         soft: '0 2px 8px rgba(0, 0, 0, 0.08)',
