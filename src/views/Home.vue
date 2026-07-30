@@ -396,6 +396,191 @@
       </div>
     </section>
 
+    <!-- Access Panels Section -->
+    <section class="py-20 md:py-32 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Accede a los paneles
+          </h2>
+          <p class="text-lg text-gray-600">
+            Inicia sesión para entrar en cada rol de la plataforma
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Panel Cliente -->
+          <router-link to="/client-login" class="group">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 p-8 h-full cursor-pointer">
+              <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-6 group-hover:scale-110 transition">
+                1
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">Panel Cliente</h3>
+              <p class="text-gray-600">
+                Gestiona tus solicitudes y presupuestos. Recibe ofertas de empresas verificadas y elige la mejor opción.
+              </p>
+              <div class="mt-6 text-primary font-semibold group-hover:translate-x-2 transition inline-flex items-center gap-2">
+                Acceder →
+              </div>
+            </div>
+          </router-link>
+
+          <!-- Panel Empresas -->
+          <router-link to="/company-login" class="group">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 p-8 h-full cursor-pointer">
+              <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-6 group-hover:scale-110 transition">
+                2
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">Panel Empresas</h3>
+              <p class="text-gray-600">
+                Recibe solicitudes de clientes y gestiona tu agenda. Envía presupuestos y crece tu negocio.
+              </p>
+              <div class="mt-6 text-primary font-semibold group-hover:translate-x-2 transition inline-flex items-center gap-2">
+                Acceder →
+              </div>
+            </div>
+          </router-link>
+
+          <!-- Panel Admin -->
+          <router-link to="/admin-dashboard" class="group">
+            <div class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition transform hover:-translate-y-2 p-8 h-full cursor-pointer">
+              <div class="w-12 h-12 bg-primary text-white rounded-full flex items-center justify-center text-2xl font-bold mb-6 group-hover:scale-110 transition">
+                3
+              </div>
+              <h3 class="text-2xl font-bold text-gray-900 mb-3">Panel Admin</h3>
+              <p class="text-gray-600">
+                Supervisión global de la plataforma. Gestiona usuarios, empresas y monitorea todas las transacciones.
+              </p>
+              <div class="mt-6 text-primary font-semibold group-hover:translate-x-2 transition inline-flex items-center gap-2">
+                Acceder →
+              </div>
+            </div>
+          </router-link>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="py-20 md:py-32 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <div class="inline-block px-4 py-2 bg-yellow-100 rounded-full text-primary font-semibold text-sm mb-6">
+            Precios
+          </div>
+          <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+            Precios claros, sin sorpresas
+          </h2>
+          <p class="text-lg text-gray-600">
+            Como nuestra mudanza. Elige el plan que mejor se adapta a ti.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <!-- Básico Plan -->
+          <div class="rounded-xl border border-gray-200 p-8 hover:border-primary transition">
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">Básico</h3>
+            <p class="text-gray-600 mb-6 h-12">
+              Para clientes que quieren comparar sin compromisos.
+            </p>
+            <div class="mb-8">
+              <p class="text-4xl font-bold text-gray-900 mb-2">Gratis</p>
+              <p class="text-gray-600">Por cliente</p>
+            </div>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Hasta 3 presupuestos
+              </li>
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Empresas verificadas
+              </li>
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Sin comisión
+              </li>
+              <li class="flex items-center gap-3 text-gray-400">
+                <span class="font-bold">✗</span>
+                Soporte prioritario
+              </li>
+            </ul>
+            <button class="w-full px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-yellow-50 transition">
+              Comenzar
+            </button>
+          </div>
+
+          <!-- Pro Plan -->
+          <div class="rounded-xl border-2 border-primary bg-gradient-to-b from-primary-50 to-white p-8 relative transform md:scale-105 shadow-lg">
+            <div class="absolute top-4 right-4 bg-primary text-white px-4 py-1 rounded-full text-sm font-semibold">
+              Más popular
+            </div>
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">Pro</h3>
+            <p class="text-gray-600 mb-6 h-12">
+              Para empresas que quieren crecer con nosotros.
+            </p>
+            <div class="mb-8">
+              <p class="text-4xl font-bold text-gray-900 mb-2">Custom</p>
+              <p class="text-gray-600">Según volumen</p>
+            </div>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Solicitudes ilimitadas
+              </li>
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Analytics avanzado
+              </li>
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                API integrada
+              </li>
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Soporte prioritario
+              </li>
+            </ul>
+            <button class="w-full px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-primary-dark transition">
+              Contactar ventas
+            </button>
+          </div>
+
+          <!-- Empresa Plan -->
+          <div class="rounded-xl border border-gray-200 p-8 hover:border-primary transition">
+            <h3 class="text-2xl font-bold text-gray-900 mb-2">Empresa</h3>
+            <p class="text-gray-600 mb-6 h-12">
+              Para grandes operadores con flota propia.
+            </p>
+            <div class="mb-8">
+              <p class="text-4xl font-bold text-gray-900 mb-2">Contacto</p>
+              <p class="text-gray-600">Solución personalizada</p>
+            </div>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Solución white-label
+              </li>
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Integración completa
+              </li>
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                Dedicado 24/7
+              </li>
+              <li class="flex items-center gap-3 text-gray-700">
+                <span class="text-primary font-bold">✓</span>
+                SLA garantizado
+              </li>
+            </ul>
+            <button class="w-full px-6 py-3 border-2 border-primary text-primary rounded-lg font-semibold hover:bg-yellow-50 transition">
+              Solicitar demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- CTA Section -->
     <section class="py-20 md:py-32 bg-gradient-to-r from-primary to-primary-dark text-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
