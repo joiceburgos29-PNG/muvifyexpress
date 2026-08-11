@@ -1,18 +1,12 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import { useAuthStore } from '../stores/authStore'
 import Home from '../views/Home.vue'
-import Login from '../views/Login.vue'
 
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
     name: 'Home',
     component: Home
-  },
-  {
-    path: '/login',
-    name: 'Login',
-    component: Login
   },
   {
     path: '/client',
@@ -123,7 +117,7 @@ router.beforeEach((to, _from, next) => {
 
   if (to.meta.requiresAuth) {
     if (!authStore.isAuthenticated) {
-      next('/login')
+      next('/')
       return
     }
 
