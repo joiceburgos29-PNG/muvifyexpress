@@ -4,7 +4,7 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between items-center py-2 sm:py-3 md:py-4">
           <router-link to="/" class="flex items-center gap-2 hover:opacity-80 transition">
-            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/LOGO.MUVIFY.EXPRESS-tUJWSv6v0CIkHijScsOU1nBD6PpmQL.png" alt="Muvify Express Logo" class="h-10 sm:h-12 md:h-14 w-auto">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/LOGO.MUVIFY.EXPRESS-tUJWSv6v0CIkHijScsOU1nBD6PpmQL.png" alt="Muvify Express Logo" class="h-10 w-36 object-cover object-center sm:h-12 sm:w-44 md:h-14 md:w-auto md:object-contain">
           </router-link>
           <div class="hidden md:flex items-center gap-8">
             <button @click="scrollToSection('howitworks')" class="text-primary-dark hover:text-primary transition font-medium">
