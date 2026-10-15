@@ -5,8 +5,15 @@
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <!-- Left side - Content -->
-          <div class="flex flex-col justify-center">
-            <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
+          <div class="relative flex flex-col justify-center overflow-hidden rounded-2xl px-2 py-4 md:px-4 md:py-8">
+            <img
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/LOGO.MUVIFY.EXPRESS-tUJWSv6v0CIkHijScsOU1nBD6PpmQL.png"
+              alt=""
+              aria-hidden="true"
+              class="pointer-events-none absolute left-1/2 top-1/2 z-0 h-64 w-auto -translate-x-1/2 -translate-y-1/2 object-contain opacity-[0.08] md:h-96"
+            />
+            <div class="relative z-10">
+              <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight">
               <span class="text-gray-900">Compara, elige y</span>
               <br />
               <span class="text-primary">mudate sin</span>
@@ -23,6 +30,7 @@
               <button @click="scrollToSection('howitworks')" class="px-8 py-4 border-2 border-primary text-primary-dark rounded-lg font-semibold hover:bg-yellow-100 transition">
                 Cómo funciona
               </button>
+            </div>
             </div>
           </div>
 
